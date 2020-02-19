@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script></head>
+<body>
+
+<h2>Text Input</h2>
+
+<form action="http://localhost:3000/signup" method="post">
+  First name:<br>
+  <input type="text" id="input" name="username">
+  <br>
+  Last name:<br>
+  <input type="text" id="output" name="password">
+ <input type="submit" value="signup">
+</form>
+
+
+<form action="http://localhost:3000/login" method="post">
+  login name:<br>
+  <input type="text" id="login_in" name="name">
+  <br>
+  login password:<br>
+  <input type="text" id="log_out" name="password">
+ <input type="submit" value="login">
+</form>
+
+
+<form action="http://localhost:3000/posts" method="post">
+  Heading:<br>
+  <input type="text" id="heading" name="heading">
+  <br>
+ Subheading:<br>
+  <input type="text" id="sub_heading" name="sub_heading">
+ <input type="submit" value="login">
+</form>
+
+<br>
+<br>
+
+<script src="send.js">
+</script>
+
+</body>
+</html>
